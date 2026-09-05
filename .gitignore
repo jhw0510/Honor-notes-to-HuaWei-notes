@@ -1,0 +1,19 @@
+# 运行环境与依赖
+.venv/
+__pycache__/
+*.pyc
+
+# 浏览器登录态（含账号 cookie，切勿上传）
+profile_honor/
+profile_huawei/
+cookies_*.json
+headers_*.json
+
+# 抓包记录（含账号信息与笔记内容，切勿上传）
+capture_*.jsonl
+_*.txt
+
+# 个人笔记数据与迁移进度（切勿上传）
+notes_*.json
+push_progress.json
+push_failed.json
